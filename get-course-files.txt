@@ -1,0 +1,135 @@
+-*- mode: org -*-
+#+title: Get Course Files
+#+language: en
+#+options: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t d:(not "HINT")
+#+options: html-postamble:nil
+#+startup: entitiespretty showeverything
+#+setupfile: theme-bigblow.setup
+
+#+name: dm2W20content
+| syllabus-portfolio.txt         | 2131901299010614 |
+| elisp-mini-primer.txt          | 2237379883122157 |
+| org-mode-primer.txt            | 4802506524362455 |
+| presentation-01.txt            | 1435843121371750 |
+| divide-pair-conquer-01.txt     | 2069606199577527 |
+| class-directed-learning-01.txt | 6738394688373892 |
+| assignment-01.txt              | 2474472117113134 |
+| assignment-01-key.txt          | 1404727560011371 |
+| presentation-02.txt            | 1847915746404802 |
+| divide-pair-conquer-02.txt     | 1086066737575085 |
+| class-directed-learning-02.txt | 7404656751013242 |
+| assignment-02.txt              | 1270557717877527 |
+| assignment-02-key.txt          | 1970714064822561 |
+| presentation-03.txt            | 2259988371437855 |
+| divide-pair-conquer-03.txt     | 1025272755726429 |
+| class-directed-learning-03.txt | 8070918813652592 |
+| assignment-03.txt              | 2293668224043741 |
+| assignment-03-key.txt          | 1495112364430292 |
+| presentation-04.txt            | 3662179872572132 |
+| divide-pair-conquer-04.txt     | 1424830822783894 |
+| class-directed-learning-04.txt | 8737180876291941 |
+| assignment-04.txt              | 1010935720996261 |
+| assignment-04-key.txt          | 1019510664038023 |
+| presentation-05.txt            | 7782906122902653 |
+| divide-pair-conquer-05.txt     | 4412913607814523 |
+| class-directed-learning-05.txt | 9403442938931291 |
+| assignment-05.txt              | 2034046227162476 |
+| assignment-05-key.txt          | 5439089636457538 |
+| presentation-06.txt            | 1190363237323317 |
+| divide-pair-conquer-06.txt     | 1763594907992704 |
+| class-directed-learning-06.txt | 1006970500157064 |
+| assignment-06.txt              | 7513137241149962 |
+| presentation-07.txt            | 1602435862356369 |
+| divide-pair-conquer-07.txt     | 7800554459902618 |
+| class-directed-learning-07.txt | 1073596706420999 |
+| assignment-07.txt              | 1774424230281210 |
+| presentation-08.txt            | 2014508487389421 |
+| divide-pair-conquer-08.txt     | 2102358993201513 |
+| class-directed-learning-08.txt | 1140222912684934 |
+| assignment-08.txt              | 4916917272337305 |
+| presentation-09.txt            | 1207381032087800 |
+| divide-pair-conquer-09.txt     | 1118819531199071 |
+| class-directed-learning-09.txt | 1206849118948869 |
+| assignment-09.txt              | 1514802233399944 |
+| presentation-10.txt            | 1580459612668686 |
+| divide-pair-conquer-10.txt     | 3242478350869064 |
+| class-directed-learning-10.txt | 1225951598833992 |
+| assignment-10.txt              | 8793990517479004 |
+| presentation-11.txt            | 7528881986775478 |
+| divide-pair-conquer-11.txt     | 2431926948356926 |
+| class-directed-learning-11.txt | 2206001352560264 |
+| assignment-11.txt              | 1048475830564877 |
+| presentation-12.txt            | 8759610362805168 |
+| divide-pair-conquer-12.txt     | 1621375545844788 |
+| class-directed-learning-12.txt | 8802080970728416 |
+| assignment-12.txt              | 1217552609381854 |
+| presentation-13.txt            | 1676633252693279 |
+| divide-pair-conquer-13.txt     | 8108241433326498 |
+| class-directed-learning-13.txt | 1860257850799113 |
+| assignment-13.txt              | 1386629388198831 |
+
+#+begin_src elisp
+  (get-dm-files (get-org-sbv dm2W20content))
+#+end_src
+
+#+results:
+| [[file:syllabus-portfolio.txt][syllabus-portfolio.txt]]         |
+| [[file:elisp-mini-primer.txt][elisp-mini-primer.txt]]          |
+| [[file:org-mode-primer.txt][org-mode-primer.txt]]            |
+| [[file:presentation-01.txt][presentation-01.txt]]            |
+| [[file:divide-pair-conquer-01.txt][divide-pair-conquer-01.txt]]     |
+| [[file:class-directed-learning-01.txt][class-directed-learning-01.txt]] |
+| [[file:assignment-01.txt][assignment-01.txt]]              |
+| [[file:assignment-01-key.txt][assignment-01-key.txt]]          |
+| [[file:presentation-02.txt][presentation-02.txt]]            |
+| [[file:divide-pair-conquer-02.txt][divide-pair-conquer-02.txt]]     |
+| [[file:class-directed-learning-02.txt][class-directed-learning-02.txt]] |
+| [[file:assignment-02.txt][assignment-02.txt]]              |
+| [[file:assignment-02-key.txt][assignment-02-key.txt]]          |
+| [[file:presentation-03.txt][presentation-03.txt]]            |
+| [[file:divide-pair-conquer-03.txt][divide-pair-conquer-03.txt]]     |
+| [[file:class-directed-learning-03.txt][class-directed-learning-03.txt]] |
+| [[file:assignment-03.txt][assignment-03.txt]]              |
+| [[file:assignment-03-key.txt][assignment-03-key.txt]]          |
+| [[file:presentation-04.txt][presentation-04.txt]]            |
+| [[file:divide-pair-conquer-04.txt][divide-pair-conquer-04.txt]]     |
+| [[file:class-directed-learning-04.txt][class-directed-learning-04.txt]] |
+| [[file:assignment-04.txt][assignment-04.txt]]              |
+| [[file:assignment-04-key.txt][assignment-04-key.txt]]          |
+| [[file:presentation-05.txt][presentation-05.txt]]            |
+| [[file:divide-pair-conquer-05.txt][divide-pair-conquer-05.txt]]     |
+| [[file:class-directed-learning-05.txt][class-directed-learning-05.txt]] |
+| [[file:assignment-05.txt][assignment-05.txt]]              |
+| [[file:assignment-05-key.txt][assignment-05-key.txt]]          |
+| [[file:presentation-06.txt][presentation-06.txt]]            |
+| [[file:divide-pair-conquer-06.txt][divide-pair-conquer-06.txt]]     |
+| [[file:class-directed-learning-06.txt][class-directed-learning-06.txt]] |
+| [[file:assignment-06.txt][assignment-06.txt]]              |
+| [[file:presentation-07.txt][presentation-07.txt]]            |
+| [[file:divide-pair-conquer-07.txt][divide-pair-conquer-07.txt]]     |
+| [[file:class-directed-learning-07.txt][class-directed-learning-07.txt]] |
+| [[file:assignment-07.txt][assignment-07.txt]]              |
+| [[file:presentation-08.txt][presentation-08.txt]]            |
+| [[file:divide-pair-conquer-08.txt][divide-pair-conquer-08.txt]]     |
+| [[file:class-directed-learning-08.txt][class-directed-learning-08.txt]] |
+| [[file:assignment-08.txt][assignment-08.txt]]              |
+| [[file:presentation-09.txt][presentation-09.txt]]            |
+| [[file:divide-pair-conquer-09.txt][divide-pair-conquer-09.txt]]     |
+| [[file:class-directed-learning-09.txt][class-directed-learning-09.txt]] |
+| [[file:assignment-09.txt][assignment-09.txt]]              |
+| [[file:presentation-10.txt][presentation-10.txt]]            |
+| [[file:divide-pair-conquer-10.txt][divide-pair-conquer-10.txt]]     |
+| [[file:class-directed-learning-10.txt][class-directed-learning-10.txt]] |
+| [[file:assignment-10.txt][assignment-10.txt]]              |
+| [[file:presentation-11.txt][presentation-11.txt]]            |
+| [[file:divide-pair-conquer-11.txt][divide-pair-conquer-11.txt]]     |
+| [[file:class-directed-learning-11.txt][class-directed-learning-11.txt]] |
+| [[file:assignment-11.txt][assignment-11.txt]]              |
+| [[file:presentation-12.txt][presentation-12.txt]]            |
+| [[file:divide-pair-conquer-12.txt][divide-pair-conquer-12.txt]]     |
+| [[file:class-directed-learning-12.txt][class-directed-learning-12.txt]] |
+| [[file:assignment-12.txt][assignment-12.txt]]              |
+| [[file:presentation-13.txt][presentation-13.txt]]            |
+| [[file:divide-pair-conquer-13.txt][divide-pair-conquer-13.txt]]     |
+| [[file:class-directed-learning-13.txt][class-directed-learning-13.txt]] |
+| [[file:assignment-13.txt][assignment-13.txt]]              |
